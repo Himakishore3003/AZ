@@ -1,6 +1,7 @@
 # Weather App
 
-This app was made to test the hosting service of Azure 
+This app was made to test the hosting service of Azure
+
 A full-stack weather application built with Python Flask backend and vanilla JavaScript frontend that displays current weather and 5-day forecasts using the OpenWeather API.
 
 ## Features
@@ -130,4 +131,5 @@ You can easily customize the app by:
 ## License
 
 This project is open source and available under the MIT License.
+
 
