@@ -57,10 +57,6 @@ jobs:
       
       - name: Login to Azure
         uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_9B69CACF6A6744F4BDFB8670DA846F37 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3D95B2A12EEF48A093EB85B74D780347 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9DCCD7F9CF4A4A598B6D0FDE59B6808D }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -68,4 +64,5 @@ jobs:
         with:
           app-name: 'weasky'
           slot-name: 'Production'
+
           
